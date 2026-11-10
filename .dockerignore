@@ -1,0 +1,10 @@
+# Create a minimal .dockerignore
+cat > .dockerignore << 'EOF'
+__pycache__
+*.pyc
+.git
+.env
+EOF
+
+# Then deploy
+fly deploy

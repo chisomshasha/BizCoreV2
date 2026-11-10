@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "BizcoreV2",
+    "slug": "bizcorev2",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "bizcorev2",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bizcorev2.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bizcorev2.app",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "bizcorev2"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "941b1ba0-56e7-4667-9c1e-b5fccf72e6af"
+      }
+    }
+  }
+}

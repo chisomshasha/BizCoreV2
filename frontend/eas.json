@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 5.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "preview": {
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://bizcorev2-production.up.railway.app"
+      },
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "preview",
+      "autoIncrement": true
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://bizcorev2-production.up.railway.app"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "channel": "production",
+      "autoIncrement": true
+    }
+  }
+}
